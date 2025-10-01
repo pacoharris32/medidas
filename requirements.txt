@@ -1,0 +1,6 @@
+#Core Dash and Plotly libraries
+dash==2.14.2plotly==5.18.0
+#Data handling (necessary for reading Excel/CSV data)
+pandas==2.1.4openpyxl==3.1.2  # Required by pandas to read .xlsx filesServer to run the Dash application in production
+#Gunicorn es el estándar para servir aplicaciones WSGI (Python Web Server Gateway Interface)
+gunicorn==21.2.0
