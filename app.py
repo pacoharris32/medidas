@@ -297,3 +297,5 @@ def update_table_and_metric(anio_sel, estado_sel, acuifero_sel):
 if __name__ == '__main__':
     # Usar use_reloader=False para evitar trazas de error confusas durante la depuración
     app.run_server(debug=True, use_reloader=False) 
+    server = app.server
+
